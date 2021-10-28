@@ -8,9 +8,11 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
 },{"./remixicon.eot":[["fonts\\remixicon.eot","rAa1"],"rAa1"],"./remixicon.woff2":[["fonts\\remixicon.woff2","SJ95"],"SJ95"],"./remixicon.woff":[["fonts\\remixicon.woff","gzkM"],"gzkM"],"./remixicon.ttf":[["fonts\\remixicon.ttf","JJql"],"JJql"],"./remixicon.svg":[["fonts\\remixicon.svg","fNEH"],"fNEH"]}],"lR2q":[function(require,module,exports) {
 
-},{"../../node_modules/swiper/swiper-bundle.css":"l1To","./..\\images\\SLIDER.webp":[["images\\SLIDER.webp","Ca6Q"],"Ca6Q"]}],"I7Ak":[function(require,module,exports) {
+},{"./..\\images\\SLIDER.webp":[["images\\SLIDER.webp","Ca6Q"],"Ca6Q"]}],"Wq0n":[function(require,module,exports) {
 
-},{"../fonts/stylesheet.css":"Umkb","../../_components/css/grid.css":"TAed","../fonts/remixicon.css":"KfCS","../../_components/_includes/Wa/btn-wa.css":"l1To","../css/header.css":"l1To","./asidebox.css":"l1To","./main-swiper.css":"lR2q","./pasteleria.css":"l1To","./about.css":"l1To","./servicios.css":"l1To","./footer.css":"l1To"}],"RMPm":[function(require,module,exports) {
+},{"../../node_modules/swiper/swiper-bundle.css":"l1To"}],"I7Ak":[function(require,module,exports) {
+
+},{"../fonts/stylesheet.css":"Umkb","../../_components/css/grid.css":"TAed","../fonts/remixicon.css":"KfCS","../../_components/_includes/Wa/btn-wa.css":"l1To","../css/header.css":"l1To","./asidebox.css":"l1To","./main-swiper.css":"lR2q","./pasteleria.css":"Wq0n","./about.css":"l1To","./servicios.css":"l1To","./footer.css":"l1To"}],"RMPm":[function(require,module,exports) {
 var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px")),window.addEventListener("resize",function(){var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px"))});
 },{}],"ESQ3":[function(require,module,exports) {
 function e(e,n){var t=(e=document.querySelector(e)).getBoundingClientRect().top,r=window.scrollY,o=null;requestAnimationFrame(function e(i){null==o&&(o=i);var l,u=i-o,c=(l=u,-t*(l/=n)*(l-2)+r);window.scrollTo(0,c),u<n&&requestAnimationFrame(e)})}var n=document.querySelectorAll('a[href^="#"]');n.forEach(function(n){var t=n.getAttribute("href");n.addEventListener("click",function(n){n.preventDefault(),e(t,1e3)})});
